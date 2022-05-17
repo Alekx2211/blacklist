@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3 {
+  margin: 0;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+}
+.header .blacklist {
+  background-image: url(../img/list.png);
+  width: 758px;
+  height: 190px;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.header .blacklist .blacklist-logo h1 {
+  font-family: Montserrat Alternates;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  padding-left: 190px;
+  padding-top: 25px;
+}
+.header .blacklist .blacklist-logo h2 {
+  font-family: Montserrat Alternates;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3C57B7;
+  margin: 0;
+  padding-left: 262px;
+}
+.header .blacklist .blacklist-logo img {
+  position: absolute;
+  padding-left: 241px;
+  padding-top: 10px;
+}
+.header .blacklist .blacklist-logo p {
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  padding-left: 205px;
+}
+.header .blacklist .blacklist-city {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin-top: 40px;
+  margin-left: 74px;
+}
+.header .blacklist .blacklist-city .city {
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.header .blacklist .blacklist-city select {
+  font-family: Montserrat Alternates;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3C57B7;
+  background-color: #FBC341;
+  border: none;
+  outline: none;
+  margin-top: 3px;
+  margin-left: -4px;
+}
+.header .left-menu {
+  margin-left: 185px;
+  margin-top: 25px;
+}
+.header .left-menu .menu {
+  padding-left: 5px;
+}
+.header .left-menu .menu .nav {
+  display: flex;
+  padding: 0;
+}
+.header .left-menu .menu .nav__item {
+  list-style-type: none;
+  padding-right: 36px;
+}
+.header .left-menu .menu .nav__link {
+  text-decoration: none;
+  font-family: Montserrat Alternates;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3C57B7;
+}
+.header .left-menu form {
+  position: relative;
+  width: 322px;
+  margin-left: 460px;
+}
+.header .left-menu form input {
+  width: 322px;
+  height: 37px;
+  border-radius: 100px;
+  border: 2px solid #3C57B7;
+  outline: none;
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 20px;
+}
+.header .left-menu form button {
+  width: 54px;
+  height: 37px;
+  border-radius: 100px;
+  position: absolute;
+  right: 0;
+  border: none;
+  background-color: #3C57B7;
+}
+
+.section-work h1 {
+  font-family: Montserrat Alternates;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 84px;
+  padding-left: 190px;
+}
+.section-work .work {
+  background-image: url(../img/work.png);
+  height: 337px;
+  margin-top: -23px;
+}
+
+/*# sourceMappingURL=style.css.map */
