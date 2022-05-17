@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -46,10 +50,56 @@
             </nav>
         </div>
     </div>
-    <section class="section-work">
-        <h1>Как это работает?</h1>
-        <div class="work"></div>
-    </section>
 </header>
+<section class="section-work">
+    <h1>Как это работает?</h1>
+    <div class="boss"></div>
+    <div class="work">
+        <div class="num">1</div>
+        <p>Вы заходите на сайт<br> <span>черныесписки.рф</span></p>
+        <img src="img/line1.png" class="line1" alt="">
+        <div class="num two">2</div>
+        <p class="p-two">Ищите интересующую Вас <br>организацию или размещаете <br> негативный опыт</p>
+        <img src="img/line2.png" class="line2" alt="">
+        <div class="num three">3</div>
+        <p class="p-three">Узнаёте всю правду (если ? <br>фирма нашлась) и ставите <br> оценку автору</p>
+    </div>
+</section>
+<section class="section-worst">
+    <h1>Худшие</h1>
+    <p>Исполнители и организации в городе</p>
+    <div class="hudshie">
+        <div class=" swiper worst">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slider">
+                        <div class="text-top">ООО Клининг Сервис</div>
+                        <div class="otziv">
+                            101
+                            <div class="question">?</div>
+                        </div>
+                    </div>
+                    <div class="slider-top"></div>
+                </div>
+                <div class="swiper-slide slider">
+                    <div class="slider"></div>
+                    <div class="slider-top"></div>
+                </div>
+                <div class="swiper-slide slider">
+                    <div class="slider"></div>
+                    <div class="slider-top"></div>
+                </div>
+                <div class="swiper-slide slider">
+                    <div class="slider"></div>
+                    <div class="slider-top"></div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next next1"></div>
+        <div class="swiper-button-prev prev1"></div>
+    </div>
+</section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
