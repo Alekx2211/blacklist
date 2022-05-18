@@ -315,5 +315,404 @@ body, html {
   position: absolute;
   top: 40px;
 }
+.section-worst .hudshie .worst .slider-top .text-top {
+  display: flex;
+  padding-top: 5px;
+  padding-left: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.section-worst .hudshie .worst .slider-top .text-top .service {
+  width: 89px;
+  height: 27px;
+  background-color: black;
+  text-align: center;
+  color: #fff;
+  border-radius: 100px;
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  margin-left: 100px;
+  padding-top: 7px;
+}
+.section-worst .hudshie .worst .slider-top .text-top .adres {
+  font-family: Montserrat Alternates;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.section-worst .hudshie .worst .slider-top .center {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.section-worst .hudshie .worst .slider-top .center .img-1 {
+  width: 80px;
+  height: 81px;
+  background-image: url(../img/klin1.png);
+  border-radius: 5px;
+  background-position: center;
+}
+.section-worst .hudshie .worst .slider-top .center .img-2 {
+  width: 80px;
+  height: 81px;
+  background-image: url(../img/klin2.png);
+  border-radius: 5px;
+  background-position: center;
+}
+.section-worst .hudshie .worst .slider-top .center .img-3 {
+  width: 80px;
+  height: 81px;
+  background-image: url(../img/klin3.png);
+  border-radius: 5px;
+  background-position: center;
+}
+.section-worst .hudshie .worst .slider-top .center .img-4 {
+  width: 80px;
+  height: 81px;
+  background-image: url(../img/klin4.png);
+  border-radius: 5px;
+  background-position: center;
+}
+.section-worst .hudshie .worst .slider-top h1 {
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 10px;
+}
+.section-worst .hudshie .worst .slider-top .bottom {
+  margin-left: 142px;
+}
+.section-worst .hudshie .worst .slider-top .bottom a {
+  border: 2px solid;
+  border-radius: 100px;
+  padding: 3px 25px;
+  text-decoration: none;
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.section-worst .hudshie .worst .slider-top .bottom .pod {
+  color: #ffffff;
+  background-color: #1B1B1B;
+  border: none;
+  padding: 6px 23px;
+}
+.section-worst .hudshie .worst .slider-top .bottom .ot {
+  color: #1B1B1B;
+}
+.section-worst .hudshie .worst .rtel .otziv {
+  margin-left: 63px;
+}
+.section-worst .hudshie .worst .rtel2 .text-top .service {
+  width: 181px;
+  margin-left: 120px;
+}
+.section-worst .hudshie .worst .rtel2 .center .img-1 {
+  background-image: url("../img/tel1.png");
+}
+.section-worst .hudshie .worst .rtel2 .center .img-2 {
+  background-image: url("../img/tel2.png");
+}
+.section-worst .hudshie .worst .rtel2 .center .img-3 {
+  background-image: url("../img/tel3.png");
+}
+.section-worst .hudshie .worst .rtel2 .center .img-4 {
+  background-image: url("../img/tel4.png");
+}
+.section-worst .hudshie .worst .rteh .otziv {
+  margin-left: 163px;
+}
+.section-worst .hudshie .worst .rteh2 .text-top .service {
+  width: 235px;
+  margin-left: 65px;
+}
+.section-worst .hudshie .worst .rteh2 .center .img-1 {
+  background-image: url("../img/rem.png");
+}
+.section-worst .hudshie .worst .rteh2 .center .img-2 {
+  background-image: url("../img/rem2.png");
+}
+.section-worst .hudshie .worst .rteh2 .center .img-3 {
+  background-image: url("../img/rem3.png");
+}
+.section-worst .hudshie .worst .rteh2 .center .img-4 {
+  background-image: url("../img/rem4.png");
+}
+.section-worst .hudshie .worst .pc .otziv {
+  margin-left: 177px;
+}
+.section-worst .hudshie .worst .pc2 .text-top .service {
+  width: 151px;
+  margin-left: 153px;
+}
+.section-worst .hudshie .worst .pc2 .center .img-1 {
+  background-image: url("../img/rem.png");
+}
+.section-worst .hudshie .worst .pc2 .center .img-2 {
+  background-image: url("../img/rem2.png");
+}
+.section-worst .hudshie .worst .pc2 .center .img-3 {
+  background-image: url("../img/rem3.png");
+}
+.section-worst .hudshie .worst .pc2 .center .img-4 {
+  background-image: url("../img/rem4.png");
+}
+
+.section-board {
+  margin-top: 42px;
+  margin-left: 17px;
+}
+.section-board h1 {
+  font-family: Montserrat Alternates;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 177px;
+}
+.section-board p {
+  font-family: Montserrat Alternates;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 178px;
+}
+.section-board .hudshie {
+  position: relative;
+  padding-top: 37px;
+}
+.section-board .hudshie .worst {
+  width: 1534px;
+}
+.section-board .hudshie .worst .slider {
+  width: 376px;
+  height: 238px;
+  background-color: #1B1B1B;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+}
+.section-board .hudshie .worst .slider .text-top {
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffff;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.section-board .hudshie .worst .slider .otziv {
+  width: 58px;
+  height: 25px;
+  background-color: #38BB4D;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: 140px;
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.section-board .hudshie .worst .slider .otziv .question {
+  width: 21px;
+  height: 21px;
+  border-radius: 100%;
+  background-color: #fff;
+  margin-left: 25px;
+  margin-top: -17px;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: #8A8A8A;
+  padding-top: 5px;
+}
+.section-board .hudshie .worst .slider-top {
+  width: 376px;
+  height: 201px;
+  background-color: #FBC341;
+  border-radius: 10px;
+  position: absolute;
+  top: 40px;
+}
+.section-board .hudshie .worst .slider-top .text-top {
+  display: flex;
+  padding-top: 5px;
+  padding-left: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.section-board .hudshie .worst .slider-top .text-top .service {
+  width: 89px;
+  height: 27px;
+  background-color: black;
+  text-align: center;
+  color: #fff;
+  border-radius: 100px;
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  margin-left: 100px;
+  padding-top: 7px;
+}
+.section-board .hudshie .worst .slider-top .text-top .adres {
+  font-family: Montserrat Alternates;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.section-board .hudshie .worst .slider-top .center {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.section-board .hudshie .worst .slider-top .center .img-1 {
+  width: 80px;
+  height: 81px;
+  background-image: url(../img/klin1.png);
+  border-radius: 5px;
+  background-position: center;
+}
+.section-board .hudshie .worst .slider-top .center .img-2 {
+  width: 80px;
+  height: 81px;
+  background-image: url(../img/klin2.png);
+  border-radius: 5px;
+  background-position: center;
+}
+.section-board .hudshie .worst .slider-top .center .img-3 {
+  width: 80px;
+  height: 81px;
+  background-image: url(../img/klin3.png);
+  border-radius: 5px;
+  background-position: center;
+}
+.section-board .hudshie .worst .slider-top .center .img-4 {
+  width: 80px;
+  height: 81px;
+  background-image: url(../img/klin4.png);
+  border-radius: 5px;
+  background-position: center;
+}
+.section-board .hudshie .worst .slider-top h1 {
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 10px;
+}
+.section-board .hudshie .worst .slider-top .bottom {
+  margin-left: 142px;
+}
+.section-board .hudshie .worst .slider-top .bottom a {
+  border: 2px solid;
+  border-radius: 100px;
+  padding: 3px 25px;
+  text-decoration: none;
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.section-board .hudshie .worst .slider-top .bottom .pod {
+  color: #ffffff;
+  background-color: #1B1B1B;
+  border: none;
+  padding: 6px 23px;
+}
+.section-board .hudshie .worst .slider-top .bottom .ot {
+  color: #1B1B1B;
+}
+.section-board .hudshie .worst .rtel .otziv {
+  margin-left: 63px;
+}
+.section-board .hudshie .worst .rtel2 .text-top .service {
+  width: 181px;
+  margin-left: 120px;
+}
+.section-board .hudshie .worst .rtel2 .center .img-1 {
+  background-image: url("../img/tel1.png");
+}
+.section-board .hudshie .worst .rtel2 .center .img-2 {
+  background-image: url("../img/tel2.png");
+}
+.section-board .hudshie .worst .rtel2 .center .img-3 {
+  background-image: url("../img/tel3.png");
+}
+.section-board .hudshie .worst .rtel2 .center .img-4 {
+  background-image: url("../img/tel4.png");
+}
+.section-board .hudshie .worst .rteh .otziv {
+  margin-left: 163px;
+}
+.section-board .hudshie .worst .rteh2 .text-top .service {
+  width: 235px;
+  margin-left: 65px;
+}
+.section-board .hudshie .worst .rteh2 .center .img-1 {
+  background-image: url("../img/rem.png");
+}
+.section-board .hudshie .worst .rteh2 .center .img-2 {
+  background-image: url("../img/rem2.png");
+}
+.section-board .hudshie .worst .rteh2 .center .img-3 {
+  background-image: url("../img/rem3.png");
+}
+.section-board .hudshie .worst .rteh2 .center .img-4 {
+  background-image: url("../img/rem4.png");
+}
+.section-board .hudshie .worst .pc .otziv {
+  margin-left: 177px;
+}
+.section-board .hudshie .worst .pc2 .text-top .service {
+  width: 151px;
+  margin-left: 153px;
+}
+.section-board .hudshie .worst .pc2 .center .img-1 {
+  background-image: url("../img/rem.png");
+}
+.section-board .hudshie .worst .pc2 .center .img-2 {
+  background-image: url("../img/rem2.png");
+}
+.section-board .hudshie .worst .pc2 .center .img-3 {
+  background-image: url("../img/rem3.png");
+}
+.section-board .hudshie .worst .pc2 .center .img-4 {
+  background-image: url("../img/rem4.png");
+}
 
 /*# sourceMappingURL=style.css.map */
