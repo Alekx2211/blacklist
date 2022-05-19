@@ -1089,10 +1089,59 @@ body,html {
     }
   }
 }
-@media (max-width: 1280px){
+@media (min-width: 1280px){
+  .wrap {
+    width: 1170px;
+  }
   .header{
     .blacklist {
       background-size: contain;
+    }
+    .left-menu {
+      margin-left: 0;
+      form {
+        margin-left: 311px;
+      }
+      .menu {
+        .nav__item{
+          padding-left: 25px;
+        }
+        .nav__link {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .section-worst {
+    h1,p {
+      padding-left: 35px;
+    }
+    .hudshie {
+      .worst{
+        width: 1170px;
+      }
+      .next1 {
+        right: 12px;
+      }
+      .prev1 {
+        left: 12px;
+      }
+    }
+  }
+  .section-board {
+    h1,p {
+      padding-left: 35px;
+    }
+    .hudshie {
+      .board{
+        width: 1170px;
+      }
+      .next2 {
+        right: 12px;
+      }
+      .prev2 {
+        left: 12px;
+      }
     }
   }
   .section-work {
@@ -1104,37 +1153,71 @@ body,html {
       background-repeat: no-repeat;
       background-position: center;
       .num {
-        margin-top: 95px;
+        margin-top: 111px;
         margin-left: 70px;
+        width: 44px;
+        height: 54px;
+        padding-top: 17px;
       }
       p {
         top: 110px;
-        left: 148px;
+        left: 124px;
         font-size: 16px;
       }
       .two {
         margin-top: 151px;
-        margin-left: 358px;
+        margin-left: 307px;
       }
       .p-two{
         top: 154px;
-        left: 554px;
+        left: 481px;
       }
       .line1{
-        left: 345px;
-        top: 108px;
+        left: 321px;
+        top: 121px;
+        width: 89px;
+        height: 75.42px;
       }
       .line2 {
-        right: 277px;
-        top: 167px;
+        right: 418px;
+        top: 181px;
+        width: 89px;
+        height: 28px;
       }
       .three {
-        margin-left: 455px;
+        margin-left: 360px;
         margin-top: 217px;
       }
       .p-three {
-        top: 187px;
-        left: 1049px;
+        top: 203px;
+        left: 897px;
+      }
+    }
+  }
+  .section-estimation {
+    .categories {
+      .kat {
+        .kat1 {
+          .technic {
+            ul{
+              padding-top: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .section-safety {
+    .bos {
+      display: none;
+    }
+    .safety {
+      .safe {
+        flex-wrap: wrap;
+        .documents {
+          margin-top: 20px;
+          margin-left: 401px;
+        }
       }
     }
   }

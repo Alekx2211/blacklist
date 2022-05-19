@@ -1024,9 +1024,51 @@ body, html {
   padding-bottom: 26px;
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 1280px) {
+  .wrap {
+    width: 1170px;
+  }
+
   .header .blacklist {
     background-size: contain;
+  }
+  .header .left-menu {
+    margin-left: 0;
+  }
+  .header .left-menu form {
+    margin-left: 311px;
+  }
+  .header .left-menu .menu .nav__item {
+    padding-left: 25px;
+  }
+  .header .left-menu .menu .nav__link {
+    font-size: 14px;
+  }
+
+  .section-worst h1, .section-worst p {
+    padding-left: 35px;
+  }
+  .section-worst .hudshie .worst {
+    width: 1170px;
+  }
+  .section-worst .hudshie .next1 {
+    right: 12px;
+  }
+  .section-worst .hudshie .prev1 {
+    left: 12px;
+  }
+
+  .section-board h1, .section-board p {
+    padding-left: 35px;
+  }
+  .section-board .hudshie .board {
+    width: 1170px;
+  }
+  .section-board .hudshie .next2 {
+    right: 12px;
+  }
+  .section-board .hudshie .prev2 {
+    left: 12px;
   }
 
   .section-work h1 {
@@ -1038,37 +1080,59 @@ body, html {
     background-position: center;
   }
   .section-work .work .num {
-    margin-top: 95px;
+    margin-top: 111px;
     margin-left: 70px;
+    width: 44px;
+    height: 54px;
+    padding-top: 17px;
   }
   .section-work .work p {
     top: 110px;
-    left: 148px;
+    left: 124px;
     font-size: 16px;
   }
   .section-work .work .two {
     margin-top: 151px;
-    margin-left: 358px;
+    margin-left: 307px;
   }
   .section-work .work .p-two {
     top: 154px;
-    left: 554px;
+    left: 481px;
   }
   .section-work .work .line1 {
-    left: 345px;
-    top: 108px;
+    left: 321px;
+    top: 121px;
+    width: 89px;
+    height: 75.42px;
   }
   .section-work .work .line2 {
-    right: 277px;
-    top: 167px;
+    right: 418px;
+    top: 181px;
+    width: 89px;
+    height: 28px;
   }
   .section-work .work .three {
-    margin-left: 455px;
+    margin-left: 360px;
     margin-top: 217px;
   }
   .section-work .work .p-three {
-    top: 187px;
-    left: 1049px;
+    top: 203px;
+    left: 897px;
+  }
+
+  .section-estimation .categories .kat .kat1 .technic ul {
+    padding-top: 50px;
+  }
+
+  .section-safety .bos {
+    display: none;
+  }
+  .section-safety .safety .safe {
+    flex-wrap: wrap;
+  }
+  .section-safety .safety .safe .documents {
+    margin-top: 20px;
+    margin-left: 401px;
   }
 }
 
