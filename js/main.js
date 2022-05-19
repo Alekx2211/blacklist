@@ -9,6 +9,10 @@ var swiper = new Swiper(".worst", {
     },
     breakpoints: {
         640:{
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        1280: {
             slidesPerView: 3,
             spaceBetween: 10,
         },
@@ -30,6 +34,10 @@ var swiper1 = new Swiper(".board", {
     },
     breakpoints: {
         640:{
+            slidesPerView: 2,
+            spaceBetween: 10,
+        },
+        1280:{
             slidesPerView: 3,
             spaceBetween: 10,
         },
