@@ -86,7 +86,7 @@ body,html {
         letter-spacing: 0em;
         text-align: left;
         color: #3C57B7;
-        background-color: #FBC341;
+        background-color: transparent;
         border: none;
         outline: none;
         margin-top: 3px;
@@ -1089,12 +1089,20 @@ body,html {
     }
   }
 }
-@media (max-width: 1280px) {
+@media (max-width: 1280px){
+  .header{
+    .blacklist {
+      background-size: contain;
+    }
+  }
   .section-work {
     h1  {
       font-size: 40px;
     }
     .work {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
       .num {
         margin-top: 95px;
         margin-left: 70px;
