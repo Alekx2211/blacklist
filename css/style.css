@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -9,6 +11,11 @@ p, h1, h2, h3 {
 body, html {
   margin: 0;
   padding: 0;
+}
+
+.wrap {
+  width: 1543px;
+  margin: 0 auto;
 }
 
 .header {
@@ -251,6 +258,34 @@ body, html {
 .section-worst .hudshie {
   position: relative;
   padding-top: 37px;
+}
+.section-worst .hudshie .prev1 {
+  width: 23px;
+  height: 23px;
+  background-image: url("../img/prev.png");
+  left: 145px;
+  top: 155px;
+}
+.section-worst .hudshie .prev1::after {
+  content: "f104";
+  color: #F4B860;
+}
+.section-worst .hudshie .prev1 .fa-solid {
+  color: #FFFFFF;
+}
+.section-worst .hudshie .next1 {
+  width: 23px;
+  height: 23px;
+  background-image: url("../img/next.png");
+  right: 145px;
+  top: 155px;
+}
+.section-worst .hudshie .next1::after {
+  content: "f104";
+  color: #FFFFFF;
+}
+.section-worst .hudshie .next1 .fa-solid {
+  color: #FFFFFF;
 }
 .section-worst .hudshie .worst {
   width: 1534px;
@@ -497,6 +532,34 @@ body, html {
   position: relative;
   padding-top: 37px;
 }
+.section-board .hudshie .prev2 {
+  width: 23px;
+  height: 23px;
+  background-image: url("../img/prev.png");
+  left: 145px;
+  top: 155px;
+}
+.section-board .hudshie .prev2::after {
+  content: "f104";
+  color: #F4B860;
+}
+.section-board .hudshie .prev2 .fa-solid {
+  color: #FFFFFF;
+}
+.section-board .hudshie .next2 {
+  width: 23px;
+  height: 23px;
+  background-image: url("../img/next.png");
+  right: 145px;
+  top: 155px;
+}
+.section-board .hudshie .next2::after {
+  content: "f104";
+  color: #FFFFFF;
+}
+.section-board .hudshie .next2 .fa-solid {
+  color: #FFFFFF;
+}
 .section-board .hudshie .board {
   width: 1534px;
 }
@@ -713,6 +776,252 @@ body, html {
 }
 .section-board .hudshie .board .pc2 .center .img-4 {
   background-image: url("../img/rem4.png");
+}
+
+.section-estimation {
+  background-color: #F6F6F6;
+}
+.section-estimation .estimat {
+  background-image: url(../img/kategor.png);
+  width: 856px;
+  height: 140px;
+  background-repeat: no-repeat;
+  margin-left: 72px;
+  margin-top: 40px;
+  font-family: Montserrat Alternates;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 117px;
+  padding-top: 21px;
+}
+.section-estimation .categories {
+  padding-bottom: 45px;
+}
+.section-estimation .categories .kat {
+  padding-top: 6px;
+}
+.section-estimation .categories .kat .kat1 .remot {
+  padding-left: 40px;
+}
+.section-estimation .categories .kat .kat1 .beauty {
+  padding-left: 73px;
+}
+.section-estimation .categories .kat .kat1 .technic {
+  position: relative;
+  padding-left: 97px;
+}
+.section-estimation .categories .kat .kat1 .technic h2 {
+  position: absolute;
+  top: -17px;
+}
+.section-estimation .categories .kat .kat1 .technic ul {
+  padding-top: 30px;
+}
+.section-estimation .categories .kat .kat2 {
+  margin-top: 36px;
+}
+.section-estimation .categories .kat .kat2 .business {
+  padding-left: 40px;
+}
+.section-estimation .categories .kat .kat2 .it {
+  padding-left: 73px;
+}
+.section-estimation .categories .kat .kat2 .IT {
+  padding-left: 97px;
+}
+.section-estimation .categories .kat .kat4 {
+  margin-top: 40px;
+}
+.section-estimation .categories .kat .kat4 .bit {
+  padding-left: 40px;
+}
+.section-estimation .categories .kat .kat4 .food {
+  padding-left: 65px;
+}
+.section-estimation .categories .kat .kat4 .nyni {
+  padding-left: 97px;
+}
+.section-estimation .categories .kat1, .section-estimation .categories .kat2, .section-estimation .categories .kat3, .section-estimation .categories .kat4 {
+  display: flex;
+}
+.section-estimation .categories .kat1 div, .section-estimation .categories .kat2 div, .section-estimation .categories .kat3 div, .section-estimation .categories .kat4 div {
+  flex-basis: 25%;
+}
+.section-estimation .categories .kat1 div h2, .section-estimation .categories .kat2 div h2, .section-estimation .categories .kat3 div h2, .section-estimation .categories .kat4 div h2 {
+  font-family: Montserrat Alternates;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.section-estimation .categories .kat1 div ul, .section-estimation .categories .kat2 div ul, .section-estimation .categories .kat3 div ul, .section-estimation .categories .kat4 div ul {
+  padding: 0;
+  margin: 0;
+  padding-top: 12px;
+  line-height: 1.4;
+}
+.section-estimation .categories .kat1 div li, .section-estimation .categories .kat2 div li, .section-estimation .categories .kat3 div li, .section-estimation .categories .kat4 div li {
+  list-style-type: none;
+}
+.section-estimation .categories .kat1 div a, .section-estimation .categories .kat2 div a, .section-estimation .categories .kat3 div a, .section-estimation .categories .kat4 div a {
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3C57B7;
+}
+
+.section-safety {
+  margin-top: 34px;
+  position: relative;
+}
+.section-safety .bos {
+  background-image: url(../img/bos.png);
+  width: 150px;
+  height: 214px;
+  position: absolute;
+  top: 95px;
+  left: 30px;
+}
+.section-safety .safety h1 {
+  font-family: Montserrat Alternates;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.section-safety .safety h3 {
+  font-family: Montserrat Alternates;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.section-safety .safety .online {
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3C57B7;
+}
+.section-safety .safety .safe {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 31px;
+}
+.section-safety .safety .safe .garant, .section-safety .safety .safe .documents, .section-safety .safety .safe .organizations, .section-safety .safety .safe .commission {
+  width: 376px;
+  height: 111px;
+  border-radius: 15px;
+  background-color: #FBC341;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.section-safety .safety .garant .text-top, .section-safety .safety .documents .text-top, .section-safety .safety .organizations .text-top, .section-safety .safety .commission .text-top {
+  display: flex;
+  align-items: center;
+  padding-top: 9px;
+  padding-left: 8px;
+}
+.section-safety .safety .garant .text-top .circle, .section-safety .safety .documents .text-top .circle, .section-safety .safety .organizations .text-top .circle, .section-safety .safety .commission .text-top .circle {
+  width: 39px;
+  height: 39px;
+  border-radius: 100%;
+  background-color: #000000;
+  font-family: Montserrat Alternates;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 10px;
+}
+.section-safety .safety .garant .text-top .p, .section-safety .safety .documents .text-top .p, .section-safety .safety .organizations .text-top .p, .section-safety .safety .commission .text-top .p {
+  font-family: Montserrat Alternates;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 9px;
+}
+.section-safety .safety .garant p, .section-safety .safety .documents p, .section-safety .safety .organizations p, .section-safety .safety .commission p {
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.section-verified {
+  margin-top: 40px;
+}
+.section-verified .verified {
+  margin-bottom: 43px;
+}
+.section-verified .verified select {
+  font-family: Montserrat Alternates;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+.section-verified .verified select::-ms-expand {
+  display: none;
+}
+.section-verified .verified select,
+.section-verified .verified .select:after {
+  grid-area: select;
+}
+.section-verified .verified .select {
+  width: 418px;
+  height: 43px;
+  border-radius: 100px;
+  border: 2px solid #000000;
+  padding-left: 16px;
+  padding-top: 5px;
+  padding-right: 23px;
+  outline: none;
+  display: grid;
+  grid-template-areas: "select";
+  align-items: center;
+}
+.section-verified .verified .select:after {
+  content: "";
+  width: 0.8em;
+  height: 0.5em;
+  background-color: #000000;
+  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+  justify-self: end;
+  padding-top: 5px;
+}
+.section-verified .verified h1 {
+  font-family: Montserrat Alternates;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 26px;
 }
 
 @media (max-width: 1280px) {
