@@ -1089,7 +1089,7 @@ body,html {
     }
   }
 }
-@media (min-width: 1280px){
+@media (max-width: 1280px){
   .wrap {
     width: 1170px;
   }
@@ -1104,7 +1104,7 @@ body,html {
       }
       .menu {
         .nav__item{
-          padding-left: 25px;
+          padding-right: 25px;
         }
         .nav__link {
           font-size: 14px;

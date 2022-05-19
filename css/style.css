@@ -1024,7 +1024,7 @@ body, html {
   padding-bottom: 26px;
 }
 
-@media (min-width: 1280px) {
+@media (max-width: 1280px) {
   .wrap {
     width: 1170px;
   }
@@ -1039,7 +1039,7 @@ body, html {
     margin-left: 311px;
   }
   .header .left-menu .menu .nav__item {
-    padding-left: 25px;
+    padding-right: 25px;
   }
   .header .left-menu .menu .nav__link {
     font-size: 14px;
