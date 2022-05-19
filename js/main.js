@@ -1,5 +1,5 @@
 var swiper = new Swiper(".worst", {
-    slidesPerView: 4,
+    slidesPerView: 1,
     spaceBetween: 10,
     loop: true,
 
@@ -7,14 +7,35 @@ var swiper = new Swiper(".worst", {
         nextEl: ".next1",
         prevEl: ".prev1",
     },
+    breakpoints: {
+        640:{
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
+        1440:{
+            slidesPerView: 4,
+            spaceBetween: 10,
+        },
+    },
+
 });
-var swiper = new Swiper(".board", {
-    slidesPerView: 4,
+var swiper1 = new Swiper(".board", {
+    slidesPerView: 1,
     spaceBetween: 10,
     loop: true,
 
     navigation: {
-        nextEl: ".next1",
-        prevEl: ".prev1",
+        nextEl: ".next2",
+        prevEl: ".prev2",
+    },
+    breakpoints: {
+        640:{
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
+        1440:{
+            slidesPerView: 4,
+            spaceBetween: 10,
+        },
     },
 });

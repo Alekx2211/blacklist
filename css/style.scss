@@ -526,7 +526,7 @@ body,html {
     position: relative;
     padding-top: 37px;
 
-    .worst {
+    .board {
       width: 1534px;
       .slider{
         width: 376px;
@@ -767,6 +767,48 @@ body,html {
             background-image: url("../img/rem4.png");
           }
         }
+      }
+    }
+  }
+}
+@media (max-width: 1280px) {
+  .section-work {
+    h1  {
+      font-size: 40px;
+    }
+    .work {
+      .num {
+        margin-top: 95px;
+        margin-left: 70px;
+      }
+      p {
+        top: 110px;
+        left: 148px;
+        font-size: 16px;
+      }
+      .two {
+        margin-top: 151px;
+        margin-left: 358px;
+      }
+      .p-two{
+        top: 154px;
+        left: 554px;
+      }
+      .line1{
+        left: 345px;
+        top: 108px;
+      }
+      .line2 {
+        right: 277px;
+        top: 167px;
+      }
+      .three {
+        margin-left: 455px;
+        margin-top: 217px;
+      }
+      .p-three {
+        top: 187px;
+        left: 1049px;
       }
     }
   }

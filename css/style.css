@@ -497,10 +497,10 @@ body, html {
   position: relative;
   padding-top: 37px;
 }
-.section-board .hudshie .worst {
+.section-board .hudshie .board {
   width: 1534px;
 }
-.section-board .hudshie .worst .slider {
+.section-board .hudshie .board .slider {
   width: 376px;
   height: 238px;
   background-color: #1B1B1B;
@@ -508,7 +508,7 @@ body, html {
   position: relative;
   display: flex;
 }
-.section-board .hudshie .worst .slider .text-top {
+.section-board .hudshie .board .slider .text-top {
   font-family: Montserrat Alternates;
   font-size: 14px;
   font-weight: 500;
@@ -519,7 +519,7 @@ body, html {
   padding-top: 15px;
   padding-left: 10px;
 }
-.section-board .hudshie .worst .slider .otziv {
+.section-board .hudshie .board .slider .otziv {
   width: 58px;
   height: 25px;
   background-color: #38BB4D;
@@ -536,7 +536,7 @@ body, html {
   padding-left: 10px;
   padding-top: 5px;
 }
-.section-board .hudshie .worst .slider .otziv .question {
+.section-board .hudshie .board .slider .otziv .question {
   width: 21px;
   height: 21px;
   border-radius: 100%;
@@ -552,7 +552,7 @@ body, html {
   color: #8A8A8A;
   padding-top: 5px;
 }
-.section-board .hudshie .worst .slider-top {
+.section-board .hudshie .board .slider-top {
   width: 376px;
   height: 201px;
   background-color: #FBC341;
@@ -560,14 +560,14 @@ body, html {
   position: absolute;
   top: 40px;
 }
-.section-board .hudshie .worst .slider-top .text-top {
+.section-board .hudshie .board .slider-top .text-top {
   display: flex;
   padding-top: 5px;
   padding-left: 10px;
   align-items: center;
   margin-bottom: 15px;
 }
-.section-board .hudshie .worst .slider-top .text-top .service {
+.section-board .hudshie .board .slider-top .text-top .service {
   width: 89px;
   height: 27px;
   background-color: black;
@@ -582,7 +582,7 @@ body, html {
   margin-left: 100px;
   padding-top: 7px;
 }
-.section-board .hudshie .worst .slider-top .text-top .adres {
+.section-board .hudshie .board .slider-top .text-top .adres {
   font-family: Montserrat Alternates;
   font-size: 11px;
   font-weight: 500;
@@ -590,41 +590,41 @@ body, html {
   letter-spacing: 0em;
   text-align: left;
 }
-.section-board .hudshie .worst .slider-top .center {
+.section-board .hudshie .board .slider-top .center {
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
   margin-bottom: 16px;
 }
-.section-board .hudshie .worst .slider-top .center .img-1 {
+.section-board .hudshie .board .slider-top .center .img-1 {
   width: 80px;
   height: 81px;
   background-image: url(../img/klin1.png);
   border-radius: 5px;
   background-position: center;
 }
-.section-board .hudshie .worst .slider-top .center .img-2 {
+.section-board .hudshie .board .slider-top .center .img-2 {
   width: 80px;
   height: 81px;
   background-image: url(../img/klin2.png);
   border-radius: 5px;
   background-position: center;
 }
-.section-board .hudshie .worst .slider-top .center .img-3 {
+.section-board .hudshie .board .slider-top .center .img-3 {
   width: 80px;
   height: 81px;
   background-image: url(../img/klin3.png);
   border-radius: 5px;
   background-position: center;
 }
-.section-board .hudshie .worst .slider-top .center .img-4 {
+.section-board .hudshie .board .slider-top .center .img-4 {
   width: 80px;
   height: 81px;
   background-image: url(../img/klin4.png);
   border-radius: 5px;
   background-position: center;
 }
-.section-board .hudshie .worst .slider-top h1 {
+.section-board .hudshie .board .slider-top h1 {
   font-family: Montserrat Alternates;
   font-size: 14px;
   font-weight: 600;
@@ -633,10 +633,10 @@ body, html {
   text-align: left;
   padding-left: 10px;
 }
-.section-board .hudshie .worst .slider-top .bottom {
+.section-board .hudshie .board .slider-top .bottom {
   margin-left: 142px;
 }
-.section-board .hudshie .worst .slider-top .bottom a {
+.section-board .hudshie .board .slider-top .bottom a {
   border: 2px solid;
   border-radius: 100px;
   padding: 3px 25px;
@@ -648,71 +648,110 @@ body, html {
   letter-spacing: 0em;
   text-align: center;
 }
-.section-board .hudshie .worst .slider-top .bottom .pod {
+.section-board .hudshie .board .slider-top .bottom .pod {
   color: #ffffff;
   background-color: #1B1B1B;
   border: none;
   padding: 6px 23px;
 }
-.section-board .hudshie .worst .slider-top .bottom .ot {
+.section-board .hudshie .board .slider-top .bottom .ot {
   color: #1B1B1B;
 }
-.section-board .hudshie .worst .rtel .otziv {
+.section-board .hudshie .board .rtel .otziv {
   margin-left: 63px;
 }
-.section-board .hudshie .worst .rtel2 .text-top .service {
+.section-board .hudshie .board .rtel2 .text-top .service {
   width: 181px;
   margin-left: 120px;
 }
-.section-board .hudshie .worst .rtel2 .center .img-1 {
+.section-board .hudshie .board .rtel2 .center .img-1 {
   background-image: url("../img/tel1.png");
 }
-.section-board .hudshie .worst .rtel2 .center .img-2 {
+.section-board .hudshie .board .rtel2 .center .img-2 {
   background-image: url("../img/tel2.png");
 }
-.section-board .hudshie .worst .rtel2 .center .img-3 {
+.section-board .hudshie .board .rtel2 .center .img-3 {
   background-image: url("../img/tel3.png");
 }
-.section-board .hudshie .worst .rtel2 .center .img-4 {
+.section-board .hudshie .board .rtel2 .center .img-4 {
   background-image: url("../img/tel4.png");
 }
-.section-board .hudshie .worst .rteh .otziv {
+.section-board .hudshie .board .rteh .otziv {
   margin-left: 163px;
 }
-.section-board .hudshie .worst .rteh2 .text-top .service {
+.section-board .hudshie .board .rteh2 .text-top .service {
   width: 235px;
   margin-left: 65px;
 }
-.section-board .hudshie .worst .rteh2 .center .img-1 {
+.section-board .hudshie .board .rteh2 .center .img-1 {
   background-image: url("../img/rem.png");
 }
-.section-board .hudshie .worst .rteh2 .center .img-2 {
+.section-board .hudshie .board .rteh2 .center .img-2 {
   background-image: url("../img/rem2.png");
 }
-.section-board .hudshie .worst .rteh2 .center .img-3 {
+.section-board .hudshie .board .rteh2 .center .img-3 {
   background-image: url("../img/rem3.png");
 }
-.section-board .hudshie .worst .rteh2 .center .img-4 {
+.section-board .hudshie .board .rteh2 .center .img-4 {
   background-image: url("../img/rem4.png");
 }
-.section-board .hudshie .worst .pc .otziv {
+.section-board .hudshie .board .pc .otziv {
   margin-left: 177px;
 }
-.section-board .hudshie .worst .pc2 .text-top .service {
+.section-board .hudshie .board .pc2 .text-top .service {
   width: 151px;
   margin-left: 153px;
 }
-.section-board .hudshie .worst .pc2 .center .img-1 {
+.section-board .hudshie .board .pc2 .center .img-1 {
   background-image: url("../img/rem.png");
 }
-.section-board .hudshie .worst .pc2 .center .img-2 {
+.section-board .hudshie .board .pc2 .center .img-2 {
   background-image: url("../img/rem2.png");
 }
-.section-board .hudshie .worst .pc2 .center .img-3 {
+.section-board .hudshie .board .pc2 .center .img-3 {
   background-image: url("../img/rem3.png");
 }
-.section-board .hudshie .worst .pc2 .center .img-4 {
+.section-board .hudshie .board .pc2 .center .img-4 {
   background-image: url("../img/rem4.png");
+}
+
+@media (max-width: 1280px) {
+  .section-work h1 {
+    font-size: 40px;
+  }
+  .section-work .work .num {
+    margin-top: 95px;
+    margin-left: 70px;
+  }
+  .section-work .work p {
+    top: 110px;
+    left: 148px;
+    font-size: 16px;
+  }
+  .section-work .work .two {
+    margin-top: 151px;
+    margin-left: 358px;
+  }
+  .section-work .work .p-two {
+    top: 154px;
+    left: 554px;
+  }
+  .section-work .work .line1 {
+    left: 345px;
+    top: 108px;
+  }
+  .section-work .work .line2 {
+    right: 277px;
+    top: 167px;
+  }
+  .section-work .work .three {
+    margin-left: 455px;
+    margin-top: 217px;
+  }
+  .section-work .work .p-three {
+    top: 187px;
+    left: 1049px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
