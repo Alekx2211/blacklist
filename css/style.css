@@ -1229,30 +1229,104 @@ body, html {
   .section-board .hudshie .board {
     width: 100%;
   }
-}
-.section-estimation .estimat {
-  width: 724px;
-  background-size: contain;
-  font-size: 40px;
-}
-.section-estimation .categories {
-  margin-left: 20px;
-}
-.section-estimation .categories .kat1 div, .section-estimation .categories .kat2 div, .section-estimation .categories .kat4 div {
-  flex-basis: 15px;
-}
-.section-estimation .categories .kat1 div h2, .section-estimation .categories .kat2 div h2, .section-estimation .categories .kat4 div h2 {
-  font-size: 15px;
-}
-.section-estimation .categories .kat1 div a, .section-estimation .categories .kat2 div a, .section-estimation .categories .kat4 div a {
-  font-size: 13px;
-}
 
-.section-safety .safety .safe .documents {
-  margin-left: 0;
-}
-.section-safety .safety .safe .commission {
-  margin-top: 20px;
+  .section-estimation .estimat {
+    width: 724px;
+    background-size: contain;
+    font-size: 40px;
+  }
+  .section-estimation .categories {
+    padding-bottom: 45px;
+  }
+  .section-estimation .categories .kat {
+    padding-top: 6px;
+    margin-left: 20px;
+  }
+  .section-estimation .categories .kat .kat1 {
+    justify-content: space-evenly;
+  }
+  .section-estimation .categories .kat .kat1 .remot {
+    padding-left: 40px;
+  }
+  .section-estimation .categories .kat .kat1 .beauty {
+    padding-left: 73px;
+  }
+  .section-estimation .categories .kat .kat1 .technic {
+    position: relative;
+    padding-left: 97px;
+  }
+  .section-estimation .categories .kat .kat1 .technic h2 {
+    position: absolute;
+    top: -17px;
+  }
+  .section-estimation .categories .kat .kat1 .technic ul {
+    padding-top: 30px;
+  }
+  .section-estimation .categories .kat .kat2 {
+    margin-top: 36px;
+    justify-content: space-evenly;
+  }
+  .section-estimation .categories .kat .kat2 .business {
+    padding-left: 40px;
+  }
+  .section-estimation .categories .kat .kat2 .it {
+    padding-left: 73px;
+  }
+  .section-estimation .categories .kat .kat2 .IT {
+    padding-left: 97px;
+  }
+  .section-estimation .categories .kat .kat4 {
+    margin-top: 40px;
+    justify-content: space-evenly;
+  }
+  .section-estimation .categories .kat .kat4 .bit {
+    padding-left: 40px;
+  }
+  .section-estimation .categories .kat .kat4 .food {
+    padding-left: 65px;
+  }
+  .section-estimation .categories .kat .kat4 .nyni {
+    padding-left: 97px;
+  }
+  .section-estimation .categories .kat1, .section-estimation .categories .kat2, .section-estimation .categories .kat3, .section-estimation .categories .kat4 {
+    display: flex;
+  }
+  .section-estimation .categories .kat1 div, .section-estimation .categories .kat2 div, .section-estimation .categories .kat3 div, .section-estimation .categories .kat4 div {
+    flex-basis: 15%;
+  }
+  .section-estimation .categories .kat1 div h2, .section-estimation .categories .kat2 div h2, .section-estimation .categories .kat3 div h2, .section-estimation .categories .kat4 div h2 {
+    font-family: Montserrat Alternates;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .section-estimation .categories .kat1 div ul, .section-estimation .categories .kat2 div ul, .section-estimation .categories .kat3 div ul, .section-estimation .categories .kat4 div ul {
+    padding: 0;
+    margin: 0;
+    padding-top: 12px;
+    line-height: 1.4;
+  }
+  .section-estimation .categories .kat1 div li, .section-estimation .categories .kat2 div li, .section-estimation .categories .kat3 div li, .section-estimation .categories .kat4 div li {
+    list-style-type: none;
+  }
+  .section-estimation .categories .kat1 div a, .section-estimation .categories .kat2 div a, .section-estimation .categories .kat3 div a, .section-estimation .categories .kat4 div a {
+    font-family: Montserrat Alternates;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3C57B7;
+  }
+
+  .section-safety .safety .safe .documents {
+    margin-left: 0;
+  }
+  .section-safety .safety .safe .commission {
+    margin-top: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1324,37 +1324,109 @@ body,html {
       }
     }
   }
-}
-.section-estimation {
-  .estimat {
-    width: 724px;
-    background-size: contain;
-    font-size: 40px;
-  }
-  .categories {
-    margin-left: 20px;
-    .kat1, .kat2,.kat4 {
-      div {
-        flex-basis: 15px;
-        h2{
-          font-size: 15px;
+  .section-estimation {
+    .estimat {
+      width: 724px;
+      background-size: contain;
+      font-size: 40px;
+    }
+    .categories {
+      padding-bottom: 45px;
+      .kat {
+        padding-top: 6px;
+        margin-left: 20px;
+        .kat1 {
+          justify-content: space-evenly;
+          .remot {
+            padding-left: 40px;
+          }
+          .beauty {
+            padding-left: 73px;
+          }
+          .technic {
+            position: relative;
+            padding-left: 97px;
+            h2 {
+              position: absolute;
+              top: -17px;
+            }
+            ul {
+              padding-top: 30px;
+            }
+          }
         }
-        a {
-          font-size: 13px;
+        .kat2 {
+          margin-top: 36px;
+          justify-content: space-evenly;
+          .business {
+            padding-left: 40px;
+          }
+          .it {
+            padding-left: 73px;
+          }
+          .IT {
+            padding-left: 97px;
+          }
+        }
+        .kat4 {
+          margin-top: 40px;
+          justify-content: space-evenly;
+          .bit {
+            padding-left: 40px;
+          }
+          .food {
+            padding-left: 65px;
+          }
+          .nyni {
+            padding-left: 97px;
+          }
+        }
+      }
+      .kat1,.kat2,.kat3,.kat4 {
+        display: flex;
+        div {
+          flex-basis: 15%;
+          h2{
+            font-family: Montserrat Alternates;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+          }
+          ul {
+            padding: 0;
+            margin: 0;
+            padding-top: 12px;
+            line-height: 1.4;
+          }
+          li {
+            list-style-type: none;
+          }
+          a {
+            font-family: Montserrat Alternates;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: $blue;
+          }
+        }
+      }
+    }
+  }
+  .section-safety {
+    .safety {
+      .safe {
+        .documents {
+          margin-left: 0;
+        }
+        .commission {
+          margin-top: 20px;
         }
       }
     }
   }
 }
-.section-safety {
-  .safety {
-    .safe {
-      .documents {
-        margin-left: 0;
-      }
-      .commission {
-        margin-top: 20px;
-      }
-    }
-  }
-}
+
